@@ -1,0 +1,26 @@
+{
+  "name": "@yyyanghj/tsconfig",
+  "version": "1.3.0",
+  "description": "Personal tsconfig.json preset",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": "yyyanghj<yyyanghj@gmail.com>",
+  "license": "MIT",
+  "main": "tsconfig.base.json",
+  "type": "module",
+  "scripts": {},
+  "exports": {
+    ".": {
+      "default": "./tsconfig.base.json"
+    },
+    "./base": {
+      "default": "./tsconfig.base.json"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
