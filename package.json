@@ -9,12 +9,12 @@
   ],
   "author": "yyyanghj<yyyanghj@gmail.com>",
   "license": "MIT",
-  "main": "./base.json",
+  "main": "./tsconfig.json",
   "type": "module",
   "scripts": {},
   "exports": {
     ".": {
-      "default": "./base.json"
+      "default": "./tsconfig.json"
     },
     "./base": {
       "default": "./base.json"
